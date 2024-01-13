@@ -16,7 +16,7 @@ import lombok.ToString;
 public class Product extends BaseEntity{	
 	@NonNull
 	private String name;
-	private String price;
+	private int price;
 	private int quantity;
 	private boolean available;
 }
